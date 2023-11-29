@@ -1,0 +1,126 @@
+:root {
+    --green: #3D8168;
+    --grey: #6D6D6D;
+    --white: #FFFFFF;
+    --darkgreen: #194131;
+}
+
+* {
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    line-height: 1.5;
+    background-color: #F3EAF3;
+}
+
+main {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.product-card {
+    border-radius: 10px 10px 0 0;
+}
+
+picture, img, svg {
+    display: block;
+    max-width: 100%;
+}
+
+.product-description {
+    margin: 7.25%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--grey);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.3rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-family: Fraunces, serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+
+p {
+    margin-top: 1.2rem;
+    color: var(--grey);
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    font-size: 0.85rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, h1, h2 {
+    overflow-wrap: break-word;
+}
+
+.price {
+    margin-top: 0.8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.discounted-price {
+    font-family: Fraunces, serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--green);
+}
+
+.original-price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    color: var(--grey);
+    text-decoration: line-through;
+}
+
+button {
+    margin-top: 0.8rem;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+button:hover {
+    background-color: var(--darkgreen);
+    cursor: pointer;
+}
+
+button > p {
+    color: var(--white);
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.06rem;
+}
