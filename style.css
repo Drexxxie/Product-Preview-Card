@@ -42,10 +42,6 @@ main {
     border-radius: 10px 0 0 10px;
 }
 
-.product-image-mobile {
-    display: none !important;
-}
-
 .product-description {
     margin: 7.25%;
     display: flex;
@@ -182,5 +178,11 @@ button > p {
     button {
         margin-top: 1.8rem;
         margin-bottom: 0rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .product-image-desktop {
+        display: none !important;
     }
 }
