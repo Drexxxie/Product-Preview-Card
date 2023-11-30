@@ -156,12 +156,9 @@ button > p {
     }   
 
     .product-image-mobile {
+        display: inline-block;
         border-radius: 10px 10px 0 0;
         height: 100%;
-    }
-
-    .product-image-desktop {
-        display: none;
     }
 
     picture {
