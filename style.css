@@ -145,10 +145,6 @@ button > p {
         flex-direction: row;
         max-width: 60rem;
         height: 45rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
     }   
 
     .product-image {
@@ -177,6 +173,6 @@ button > p {
     }
 
     .footer {
-        margin-bottom: 2rem;
+        padding: 2rem auto;
     }
 }
