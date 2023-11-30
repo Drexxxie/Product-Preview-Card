@@ -30,6 +30,8 @@ main {
 }
 
 .product-card {
+    display: flex;
+    flex-direction: column;
     border-radius: 10px 10px 0 0;
 }
 
@@ -123,4 +125,32 @@ button > p {
     font-weight: bold;
     font-size: 0.8rem;
     letter-spacing: 0.06rem;
+}
+
+@media (min-width: 660px) {
+    .product-card {
+        flex-direction: row;
+        max-width: 60rem;
+        height: 45rem;
+    }   
+
+    .product-image {
+        border-radius: 10px 0 0 10px;
+        height: 100%;
+    }
+
+    picture {
+        width: 50%;
+    }
+
+    .product-description {
+        height: 100%;
+        width: 50%;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .price {
+        margin-top: 1.2rem;
+    }
 }
