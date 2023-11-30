@@ -36,6 +36,10 @@ main {
     background-color: var(--white);
 }
 
+.product-image-mobile {
+    display: none;
+}
+
 picture, img, svg {
     display: block;
     max-width: 100%;
@@ -147,9 +151,13 @@ button > p {
         height: 45rem;
     }   
 
-    .product-image {
+    .product-image-mobile {
         border-radius: 10px 0 0 10px;
         height: 100%;
+    }
+
+    .product-image-desktop {
+        display: none;
     }
 
     picture {
