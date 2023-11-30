@@ -20,7 +20,7 @@ html {
 body {
     height: 100%;
     line-height: 1.5;
-    background-color: #F3EAF3;
+    background-color: hsl(30, 38%, 92%);
 }
 
 main {
@@ -32,7 +32,8 @@ main {
 .product-card {
     display: flex;
     flex-direction: column;
-    border-radius: 10px 10px 0 0;
+    border-radius:  0 10px 10px  0;
+    background-color: var(--white);
 }
 
 picture, img, svg {
