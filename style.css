@@ -128,11 +128,27 @@ button > p {
     letter-spacing: 0.06rem;
 }
 
+.footer {
+    font-size: 0.6875rem;
+    text-align: center;
+    color: var(--grey);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer a {
+    color: hsl(228, 12%, 48%);
+    text-decoration: none;
+}
+
 @media (min-width: 660px) {
     .product-card {
         flex-direction: row;
         max-width: 60rem;
         height: 45rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }   
 
     .product-image {
@@ -158,5 +174,9 @@ button > p {
     button {
         margin-top: 1.8rem;
         margin-bottom: 0rem;
+    }
+
+    .footer {
+        margin-bottom: 2rem;
     }
 }
